@@ -1,0 +1,8 @@
+The program is designed to copy the contents of one file to another while displaying the source file's content on the console. 
+It begins by prompting the user to input the names of the source and destination files. 
+Using file handling techniques, it opens the source file in read mode and the destination file in write mode. 
+For each line read from the source file, it simultaneously prints the line to the console and writes it to the destination file, ensuring a line-by-line transfer. 
+The program includes error handling to manage scenarios where files cannot be opened, displaying appropriate error messages. 
+Finally, upon successfully copying the contents, it closes both files and notifies the user of the successful operation. 
+This demonstrates key programming concepts such as file handling, input/output operations, and error handling in C++.
+
